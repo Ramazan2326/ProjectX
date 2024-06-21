@@ -7,3 +7,11 @@ main = ReplyKeyboardMarkup(
         [KeyboardButton(text='ПТ'), KeyboardButton(text='СБ'),
          KeyboardButton(text='ВСК')]
     ], resize_keyboard=True, input_field_placeholder='Выбери день недели.')
+
+
+# main = ReplyKeyboardMarkup(
+#     keyboard = [
+#         [KeyboardButton(text='Расписание'), KeyboardButton(text='Список площадок')],
+#         [KeyboardButton(text='Закрыть клавиатуру')]
+#     ], resize_keyboard=True, input_field_placeholder='Выбери опцию.'
+# )
